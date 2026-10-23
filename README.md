@@ -2,7 +2,7 @@
 
 > Adaptation de **Mistral 7B Instruct v0.3** au style de **Victor Hugo, Charles Baudelaire et Paul Verlaine**, avec **QLoRA** (Unsloth), sur un GPU gratuit de Google Colab (T4).
 
-[Ouvrir le notebook dans Colab](https://colab.research.google.com/drive/1TBDHH_WuGNfnk1rNZtDKVYRCxPjIjhta#scrollTo=V32yqBC-oz58) · [Adaptateurs LoRA sur Hugging Face](LIEN_HUGGING_FACE)
+[Ouvrir le notebook dans Colab](https://colab.research.google.com/drive/1TBDHH_WuGNfnk1rNZtDKVYRCxPjIjhta#scrollTo=V32yqBC-oz58) · [Adaptateurs LoRA sur Hugging Face](https://huggingface.co/armistice-ml/poetes-mistral-7b-lora)
 
 ---
 
