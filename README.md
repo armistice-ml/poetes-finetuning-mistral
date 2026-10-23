@@ -2,7 +2,7 @@
 
 > Adaptation de **Mistral 7B Instruct v0.3** au style de **Victor Hugo, Charles Baudelaire et Paul Verlaine**, avec **QLoRA** (Unsloth), sur un GPU gratuit de Google Colab (T4).
 
-[Ouvrir le notebook dans Colab](LIEN_COLAB) · [Adaptateurs LoRA sur Hugging Face](LIEN_HUGGING_FACE)
+[Ouvrir le notebook dans Colab](https://colab.research.google.com/drive/1TBDHH_WuGNfnk1rNZtDKVYRCxPjIjhta#scrollTo=V32yqBC-oz58) · [Adaptateurs LoRA sur Hugging Face](LIEN_HUGGING_FACE)
 
 ---
 
@@ -146,18 +146,20 @@ Les adaptateurs LoRA peuvent dépasser la limite de 100 Mo par fichier de GitHub
 
 ## Sources et licences
 
-- Textes : Victor Hugo, Charles Baudelaire et Paul Verlaine, domaine public. Éditions numériques de [Project Gutenberg](https://www.gutenberg.org/).
-- Modèle de base : Mistral 7B Instruct v0.3 (Mistral AI), licence Apache 2.0, quantifié en 4 bits par [Unsloth](https://github.com/unslothai/unsloth).
-- Code de ce dépôt : [à compléter : par exemple licence MIT].
+- **Textes** : Victor Hugo, Charles Baudelaire et Paul Verlaine, domaine public. Éditions numériques de [Project Gutenberg](https://www.gutenberg.org/).
+- **Modèle de base** : Mistral 7B Instruct v0.3 (Mistral AI), licence Apache 2.0, quantifié en 4 bits par [Unsloth](https://github.com/unslothai/unsloth).
+- **Adaptateurs LoRA** : licence Apache 2.0, publiés sur [Hugging Face](https://huggingface.co/armistice-ml/poetes-mistral-7b-lora).
+- **Code de ce dépôt** : licence MIT (voir le fichier [LICENSE](LICENSE)).
 
 ## Ce que j'ai appris
 
-- Construire un jeu de données propre à partir de textes bruts : c'est l'étape la plus longue, et celle qui compte le plus.
+- Construire un jeu de données propre à partir de textes bruts : c'est l'étape la plus longue, et celle qui pèse le plus sur le résultat.
 - Pourquoi on choisit un modèle *Instruct* et comment fonctionne le *chat template*.
 - Le principe de QLoRA : un modèle quantifié en 4 bits et de petits adaptateurs entraînables.
 - Lire une courbe d'apprentissage et repérer le début de la mémorisation.
+- Vérifier ce que le modèle utilise vraiment, par exemple avec le test du conditionnement par auteur.
 - Évaluer honnêtement un modèle, y compris quand le résultat est modeste.
 
 ## Auteur
 
-[Ton nom] · [GitHub] · [Portfolio] · [LinkedIn]
+**Armistice ANAGONOU** · [GitHub](https://github.com/armistice-ml) · [Hugging Face](https://huggingface.co/armistice-ml) · [Portfolio](URL_DU_PORTFOLIO) · [LinkedIn](URL_LINKEDIN)
